@@ -19,4 +19,9 @@ public class Illumina {
 			quarantine.toCharArray();
 	}
 	
+	public static String adventuresOfGillock()
+	{
+		return null;
+	}
+	
 }
