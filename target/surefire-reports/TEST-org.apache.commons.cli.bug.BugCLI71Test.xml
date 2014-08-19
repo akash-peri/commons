@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.008" errors="0" skipped="0" tests="4" name="org.apache.commons.cli.bug.BugCLI71Test">
+<testsuite failures="0" time="0.005" errors="0" skipped="0" tests="4" name="org.apache.commons.cli.bug.BugCLI71Test">
   <properties>
-    <property name="coverity.emit" value="/home/aperi/Downloads/commons-cli-1.2-src/idir/emit"/>
+    <property name="coverity.emit" value="/home/aperi/workspace_java_git/commons-cli/idir/emit"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="compiler.classes" value="javax.tools.JavaCompiler com.sun.tools.javac.Main com.sun.tools.javac.Main org.eclipse.jdt.internal.compiler.batch.Main com.sun.tools.javac.api.JavacTool com.sun.tools.javac.api.JavacTaskImpl com.sun.tools.javac.api.JavacTaskImpl "/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-7-oracle/jre/lib/amd64"/>
@@ -16,23 +16,23 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="unknown"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/aperi/Downloads/commons-cli-1.2-src"/>
+    <property name="user.dir" value="/home/aperi/workspace_java_git/commons-cli"/>
     <property name="arg.positions" value="4 0 0 1 -1 -1 -1 p"/>
     <property name="java.runtime.version" value="1.7.0_67-b01"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="basedir" value="/home/aperi/Downloads/commons-cli-1.2-src"/>
+    <property name="basedir" value="/home/aperi/workspace_java_git/commons-cli"/>
     <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-7-oracle/jre/lib/endorsed"/>
     <property name="os.arch" value="amd64"/>
-    <property name="surefire.real.class.path" value="/tmp/surefirebooter7141250232786243589.jar:/home/aperi/cov-analysis-linux64-7.5.0/jars/capture-bci.jar"/>
+    <property name="surefire.real.class.path" value="/tmp/surefirebooter540997682909768734.jar:/home/aperi/cov-analysis-linux64-7.5.0/jars/capture-bci.jar"/>
     <property name="java.io.tmpdir" value="/tmp"/>
     <property name="line.separator" value="
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Linux"/>
-    <property name="coverity.build_log" value="/home/aperi/Downloads/commons-cli-1.2-src/idir/build-log.txt"/>
+    <property name="coverity.build_log" value="/home/aperi/workspace_java_git/commons-cli/idir/build-log.txt"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/home/aperi/cov-analysis-linux64-7.5.0/jars:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
-    <property name="surefire.test.class.path" value="/home/aperi/Downloads/commons-cli-1.2-src/target/test-classes:/home/aperi/Downloads/commons-cli-1.2-src/target/classes:/home/aperi/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:"/>
+    <property name="surefire.test.class.path" value="/home/aperi/workspace_java_git/commons-cli/target/test-classes:/home/aperi/workspace_java_git/commons-cli/target/classes:/home/aperi/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="51.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -46,12 +46,12 @@
     <property name="file.encoding" value="UTF-8"/>
     <property name="coverity.build_log_encoding" value="UTF-8"/>
     <property name="user.name" value="aperi"/>
-    <property name="java.class.path" value="/home/aperi/Downloads/commons-cli-1.2-src/target/test-classes:/home/aperi/Downloads/commons-cli-1.2-src/target/classes:/home/aperi/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:"/>
+    <property name="java.class.path" value="/home/aperi/workspace_java_git/commons-cli/target/test-classes:/home/aperi/workspace_java_git/commons-cli/target/classes:/home/aperi/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:"/>
     <property name="coverity.force.debug" value="true"/>
     <property name="java.vm.specification.version" value="1.7"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/usr/lib/jvm/java-7-oracle/jre"/>
-    <property name="sun.java.command" value="/tmp/surefirebooter7141250232786243589.jar /tmp/surefire2275766150289478298tmp /tmp/surefire5825479411214476352tmp"/>
+    <property name="sun.java.command" value="/tmp/surefirebooter540997682909768734.jar /tmp/surefire3095466408576775079tmp /tmp/surefire8445066220358573810tmp"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -68,8 +68,8 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="0" classname="org.apache.commons.cli.bug.BugCLI71Test" name="testLackOfError"/>
-  <testcase time="0" classname="org.apache.commons.cli.bug.BugCLI71Test" name="testGetsDefaultIfOptional"/>
   <testcase time="0" classname="org.apache.commons.cli.bug.BugCLI71Test" name="testBasic"/>
   <testcase time="0" classname="org.apache.commons.cli.bug.BugCLI71Test" name="testMistakenArgument"/>
+  <testcase time="0" classname="org.apache.commons.cli.bug.BugCLI71Test" name="testLackOfError"/>
+  <testcase time="0.001" classname="org.apache.commons.cli.bug.BugCLI71Test" name="testGetsDefaultIfOptional"/>
 </testsuite>

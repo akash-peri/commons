@@ -5,7 +5,7 @@ Bundle-Name: Commons CLI
 Created-By: 1.7.0_67 (Oracle Corporation)
 Bundle-Vendor: The Apache Software Foundation
 Bundle-Version: 1.2
-Bnd-LastModified: 1408466151860
+Bnd-LastModified: 1408484995886
 Bundle-ManifestVersion: 2
 Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
 Bundle-Description: Commons CLI provides a simple API for presenting, 
