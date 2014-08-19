@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.002" errors="0" skipped="0" tests="3" name="org.apache.commons.cli.ArgumentIsOptionTest">
+  <properties>
+    <property name="coverity.emit" value="/home/aperi/Downloads/commons-cli-1.2-src/idir/emit"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="compiler.classes" value="javax.tools.JavaCompiler com.sun.tools.javac.Main com.sun.tools.javac.Main org.eclipse.jdt.internal.compiler.batch.Main com.sun.tools.javac.api.JavacTool com.sun.tools.javac.api.JavacTaskImpl com.sun.tools.javac.api.JavacTaskImpl "/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-7-oracle/jre/lib/amd64"/>
+    <property name="java.vm.version" value="24.65-b04"/>
+    <property name="instrumentation.class" value="com.coverity.capture.inst.sun.SunJavac"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/aperi/Downloads/commons-cli-1.2-src"/>
+    <property name="arg.positions" value="4 0 0 1 -1 -1 -1 p"/>
+    <property name="java.runtime.version" value="1.7.0_67-b01"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="basedir" value="/home/aperi/Downloads/commons-cli-1.2-src"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-7-oracle/jre/lib/endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="/tmp/surefirebooter7141250232786243589.jar:/home/aperi/cov-analysis-linux64-7.5.0/jars/capture-bci.jar"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="coverity.build_log" value="/home/aperi/Downloads/commons-cli-1.2-src/idir/build-log.txt"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/home/aperi/cov-analysis-linux64-7.5.0/jars:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="surefire.test.class.path" value="/home/aperi/Downloads/commons-cli-1.2-src/target/test-classes:/home/aperi/Downloads/commons-cli-1.2-src/target/classes:/home/aperi/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="compiler.signatures" value="(Ljava/io/InputStream;Ljava/io/OutputStream;Ljava/io/OutputStream;[Ljava/lang/String;)I ([Ljava/lang/String;)I ([Ljava/lang/String;Ljava/io/PrintWriter;)I ([Ljava/lang/String;)Z (Ljava/io/Writer;Ljavax/tools/JavaFileManager;Ljavax/tools/DiagnosticListener;Ljava/lang/Iterable;Ljava/lang/Iterable;Ljava/lang/Iterable;)Ljavax/tools/JavaCompiler$CompilationTask; ()Ljava/lang/Boolean; ()Ljava/lang/Iterable; "/>
+    <property name="os.version" value="3.13.0-32-generic"/>
+    <property name="compiler.methods" value="run compile compile compile getTask call generate "/>
+    <property name="user.home" value="/home/aperi"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="coverity.build_log_encoding" value="UTF-8"/>
+    <property name="user.name" value="aperi"/>
+    <property name="java.class.path" value="/home/aperi/Downloads/commons-cli-1.2-src/target/test-classes:/home/aperi/Downloads/commons-cli-1.2-src/target/classes:/home/aperi/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:"/>
+    <property name="coverity.force.debug" value="true"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/usr/lib/jvm/java-7-oracle/jre"/>
+    <property name="sun.java.command" value="/tmp/surefirebooter7141250232786243589.jar /tmp/surefire2275766150289478298tmp /tmp/surefire5825479411214476352tmp"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_67"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-7-oracle/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-7-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-7-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-7-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-7-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-7-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-7-oracle/jre/classes:/home/aperi/cov-analysis-linux64-7.5.0/jars/capture-rt.jar"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="/home/aperi/.m2/repository"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="0" classname="org.apache.commons.cli.ArgumentIsOptionTest" name="testOption"/>
+  <testcase time="0" classname="org.apache.commons.cli.ArgumentIsOptionTest" name="testOptionAndOptionWithArgument"/>
+  <testcase time="0.001" classname="org.apache.commons.cli.ArgumentIsOptionTest" name="testOptionWithArgument"/>
+</testsuite>
