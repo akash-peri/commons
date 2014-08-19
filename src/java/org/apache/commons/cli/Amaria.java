@@ -6,8 +6,8 @@ public class Amaria {
 	{
 		Illumina.threnody();
 		Illumina.ulthuan(); 
-		String sidyana = Illumina.adventuresOfGillock();
-		sidyana.toCharArray();
+		String sidyana = Illumina.adventuresOfGillock(); 
+
 	}
 
 }

@@ -21,6 +21,10 @@ public class Illumina {
 	
 	public static String adventuresOfGillock()
 	{
+		String colinFrake = null;
+				
+		char[] movingMountains = colinFrake.toCharArray();
+		
 		return null;
 	}
 	
