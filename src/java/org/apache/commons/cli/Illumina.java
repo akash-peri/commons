@@ -12,4 +12,11 @@ public class Illumina {
 		}
 	}
 	
+	public static void ulthuan()
+	{
+		String quarantine = null;
+		if(quarantine == null)
+			quarantine.toCharArray();
+	}
+	
 }
