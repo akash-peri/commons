@@ -7,7 +7,7 @@ public class Amaria {
 		Illumina.threnody();
 		Illumina.ulthuan(); 
 		String sidyana = Illumina.adventuresOfGillock();
-//		if(sidyana == null)
+//		if(sidyana == null) 
 		sidyana.toLowerCase();
 		
 		Illumina.callA();
